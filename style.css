@@ -1,0 +1,12 @@
+:root { font-family: system-ui, sans-serif; color: #1e293b; background: #f8fafc; }
+body { margin: 0; }
+a { color: #075985; text-underline-offset: 0.15em; }
+.site-header, main, .site-footer { max-width: 850px; margin: 0 auto; padding: 1.5rem; }
+.brand { font-size: 1.2rem; font-weight: 700; }
+nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+main { background: white; line-height: 1.65; }
+h1 { line-height: 1.2; }
+.last-updated, .page-subtitle { color: #475569; }
+.support-contact { padding: 1rem; background: #e0f2fe; }
+.faq-item { border-top: 1px solid #cbd5e1; }
+.site-footer { font-size: 0.9rem; }
