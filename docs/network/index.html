@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlyn Network 1.2.0.0 | Atlyn Power BI visuals</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="brand"><a href="../../">Atlyn Power BI visuals</a></p>
+    <nav aria-label="Support and policies">
+      <a href="../../docs/faq/">Support</a>
+      <a href="../../legal/terms/">Terms of Service</a>
+      <a href="../../legal/privacy/">Privacy Policy</a>
+    </nav>
+  </header>
+  <main id="content">
+    <article>
+      <h1>Atlyn Network 1.2.0.0</h1>
+      <p class="page-subtitle">Quick start, field mapping, layouts, formatting, limits, and support for the Atlyn Network Power BI visual.</p>
+      <p>Atlyn Network renders directed relationships in Power BI. This guide covers the field wells and local exploration options. For other support questions, visit the <a href="../../docs/faq/">FAQ</a>.</p>
+
+      <section aria-labelledby="quick-start">
+        <h2 id="quick-start">Quick start</h2>
+        <ol>
+          <li>Add the Atlyn Network visual to a report page and map <strong>Source ID</strong> and <strong>Target ID</strong> to identifiers for the relationship endpoints.</li>
+          <li>Optionally map <strong>Weight</strong>, <strong>Relationship type</strong>, <strong>Edge ID</strong>, <strong>Item ID</strong>, and <strong>Tooltips</strong> to add relationship values, stable identity, item detail, and tooltip context.</li>
+          <li>Choose a layout, then use search, traversal, formatting, and report selection to explore the graph.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="field-wells">
+        <h2 id="field-wells">Field wells</h2>
+        <ul>
+          <li><strong>Source ID:</strong> Identifier for the source entity in a directed relationship.</li>
+          <li><strong>Target ID:</strong> Identifier for the target entity. Blank targets can be grouped with the related formatting option.</li>
+          <li><strong>Weight:</strong> Optional relationship magnitude.</li>
+          <li><strong>Relationship type:</strong> Optional relationship category or label.</li>
+          <li><strong>Edge ID:</strong> Optional relationship identifier.</li>
+          <li><strong>Item ID:</strong> Optional item identifier for the Two-Ring Item Detail drill-in.</li>
+          <li><strong>Tooltips:</strong> Optional values for additional tooltip context.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="layouts">
+        <h2 id="layouts">Layout modes</h2>
+        <ul>
+          <li><strong>Force-directed:</strong> Explore a directed graph, including cycles, reciprocal links, and self-links.</li>
+          <li><strong>Circular ring:</strong> Use a single-ring overview. Map <strong>Item ID</strong> to enable the Two-Ring Item Detail drill-in.</li>
+          <li><strong>Rooted radial:</strong> Explore directed relationships in a rooted radial arrangement.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="formatting">
+        <h2 id="formatting">Formatting options</h2>
+        <ul>
+          <li><strong>Color mode:</strong> Use categorical source coloring for relationship curves and arrowheads.</li>
+          <li><strong>Role rings:</strong> Show concentric rings for source and target roles.</li>
+          <li><strong>Self-links:</strong> Hide diagram self-links while retaining their status counts.</li>
+          <li><strong>Group blank targets:</strong> Optionally place relationships with blank targets in a bucket.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="exploration">
+        <h2 id="exploration">Local exploration and report selection</h2>
+        <p>Search, neighborhood, upstream, downstream, shortest-path traversal, and saved local views change the visual view. Selecting an entity or relationship uses native Power BI selection and cross-filtering to interact with connected report visuals.</p>
+      </section>
+
+      <section aria-labelledby="limits">
+        <h2 id="limits">Scale limits</h2>
+        <p>Keep the visual within 5,000 rows, 250 entities, and 1,000 relationships.</p>
+      </section>
+
+      <section aria-labelledby="privacy">
+        <h2 id="privacy">Data and privacy</h2>
+        <p>Atlyn Network renders report data offline within Power BI, uses no telemetry or external network requests, and declares no Power BI privileges (privileges: []).</p>
+      </section>
+
+      <section aria-labelledby="support">
+        <h2 id="support">Support</h2>
+        <p>Email <a href="mailto:atlyn.help@gmail.com">atlyn.help@gmail.com</a> with the Power BI version, Atlyn Network visual version, and synthetic reproduction steps. Never send confidential reports or personal data.</p>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer">Contact Atlyn support: <a href="mailto:atlyn.help@gmail.com">atlyn.help@gmail.com</a></footer>
+</body>
+</html>
